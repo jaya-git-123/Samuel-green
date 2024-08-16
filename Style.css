@@ -214,8 +214,9 @@ body {
     margin:30px 0 80px 0;
     max-width:300px;
 }
-@media (min-width:400px){
+@media screen and (min-width:599px){
     .container{
+
         flex-direction:row;
         height:100vh;
     }
@@ -231,7 +232,6 @@ body {
        bottom:0;
        align-items:flex-start;
        width:50%;
-       margin-left: 85px;
     }
     .second-sub-container>*{
         text-align:left;
