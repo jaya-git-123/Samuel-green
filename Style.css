@@ -8,7 +8,7 @@ body {
 }
 .container{
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
 }
 .first-sub-container {
     display: flex;
